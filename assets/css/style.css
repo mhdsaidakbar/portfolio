@@ -302,6 +302,21 @@ main {
   border-radius: 8px;
 }
 
+.download {
+  color: var(--white-1);
+  background: blue;
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.download p {
+  place-items: center;
+}
+
 .info_more-btn {
   position: absolute;
   top: -15px;
@@ -1339,7 +1354,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .skills-item { margin-bottom: 10px; }
-  
+
   .project-img, .blog-banner-box { border-radius: 16px; }
 
   .blog-posts-list { gap: 30px; }
